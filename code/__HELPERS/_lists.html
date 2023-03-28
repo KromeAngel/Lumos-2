@@ -14,7 +14,7 @@
  &mdash; <a href="code/__HELPERS/_lists.html#define">Define Details</a></header>
 <main>
 <h1>code/__HELPERS/_lists.dm 
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm"/></a></h1>
 
 <table class="summary" cellspacing="0">
@@ -49,7 +49,7 @@ COMPTYPE: How should the values be compared? Either COMPARE_KEY or COMPARE_VALUE
                 <td>Returns datum/data/record</td></tr></table><h2 id="define">Define Details</h2>
 <h3 id="define/BINARY_INSERT"><aside class="declaration">#define </aside>BINARY_INSERT
             <aside>(INPUT, LIST, TYPECONT, COMPARE, COMPARISON, COMPTYPE)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L58">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L58">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 58"/></a>
     </h3>
     <p>Binary search sorted insert
@@ -59,42 +59,42 @@ TYPECONT: The typepath of the contents of the list
 COMPARE: The object to compare against, usualy the same as INPUT
 COMPARISON: The variable on the objects to compare
 COMPTYPE: How should the values be compared? Either COMPARE_KEY or COMPARE_VALUE.</p><h3 id="define/COMPARE_KEY"><aside class="declaration">#define </aside>COMPARE_KEY
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L45">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L45">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 45"/></a>
     </h3>
     <p>Passed into BINARY_INSERT to compare keys</p><h3 id="define/COMPARE_VALUE"><aside class="declaration">#define </aside>COMPARE_VALUE
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L47">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L47">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 47"/></a>
     </h3>
     <p>Passed into BINARY_INSERT to compare values</p><h3 id="define/LAZYACCESS"><aside class="declaration">#define </aside>LAZYACCESS
             <aside>(L, I)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L21">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L21">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 21"/></a>
     </h3>
     <p>returns L[I] if L exists and I is a valid index of L, runtimes if L is not a list</p><h3 id="define/LAZYADDASSOC"><aside class="declaration">#define </aside>LAZYADDASSOC
             <aside>(L, K, V)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L28">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L28">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 28"/></a>
     </h3>
     <p>This is used to add onto lazy assoc list when the value you're adding is a /list/. This one has extra safety over lazyaddassoc because the value could be null (and thus cant be used to += objects)</p><h3 id="define/LAZYLISTDUPLICATE"><aside class="declaration">#define </aside>LAZYLISTDUPLICATE
             <aside>(L)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L15">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L15">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 15"/></a>
     </h3>
     <p>Like LAZYCOPY - copies an input list if the list has entries, If it doesn't the assigned list is nulled</p><h3 id="define/LAZYNULL"><aside class="declaration">#define </aside>LAZYNULL
             <aside>(L)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L25">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L25">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 25"/></a>
     </h3>
     <p>Sets a list to null</p><h3 id="define/LAZYORASSOCLIST"><aside class="declaration">#define </aside>LAZYORASSOCLIST
             <aside>(lazy_list, key, value)</aside>
-            <a href="https://github.com/KromeAngel/Lumos-2/blob/a9f28ada750dcda485522d43f0b0bfc27959291b/code/__HELPERS/_lists.dm#L39">
+            <a href="https://github.com/KromeAngel/Lumos-2/blob/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df/code/__HELPERS/_lists.dm#L39">
         <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;_lists.dm 39"/></a>
     </h3>
     <p>Performs an insertion on the given lazy list with the given key and value. If the value already exists, a new one will not be made.</p></main>
 <footer>
     tgstation.dme
-    <a href="https://github.com/KromeAngel/Lumos-2/tree/a9f28ada750dcda485522d43f0b0bfc27959291b">a9f28ad</a>
+    <a href="https://github.com/KromeAngel/Lumos-2/tree/6a17e36f9fb60436b2a0e452f1748ffe0dbae7df">6a17e36</a>
         (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.0</a></footer>
 </body>
 </html>
